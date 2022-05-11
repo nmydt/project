@@ -10,7 +10,7 @@
 ## 1，动漫评分数据分析与可视化
 
 ### 1.1 数据抓取
-[BilibiliSpider](cartoon/BilibiliSpider.py)
+[BilibiliSpider](cartoon/BilibiliSpider.ipynb)
 
 将抓取文件上传到${HIVE_HOME}/mydata目录下
 ### 1.2 Hive表创建与导入
