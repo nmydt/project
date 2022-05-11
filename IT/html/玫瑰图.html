@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="c79e812f84f849f89eb1c4aabd83822f" class="chart-container" style="width:1250px; height:750px;"></div>
+    <script>
+        var chart_c79e812f84f849f89eb1c4aabd83822f = echarts.init(
+            document.getElementById('c79e812f84f849f89eb1c4aabd83822f'), 'white', {renderer: 'canvas'});
+        var option_c79e812f84f849f89eb1c4aabd83822f = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#FAE927",
+        "#E9E416",
+        "#C9DA36",
+        "#9ECB3C",
+        "#6DBC49",
+        "#37B44E",
+        "#3DBA78",
+        "#14ADCF",
+        "#209AC9",
+        "#1E91CA",
+        "#2C6BA0",
+        "#2B55A1",
+        "#2D3D8E",
+        "#44388E",
+        "#6A368B#7D3990",
+        "#A63F98",
+        "#C31C88",
+        "#D52178",
+        "#D5225B",
+        "#D02C2A",
+        "#D44C2D",
+        "#F57A34",
+        "#FA8F2F",
+        "#D99D21",
+        "#CF7B25",
+        "#CF7B25",
+        "#CF7B25"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": ".net\u5c0f\u7a0b\u5e8f\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 3000
+                },
+                {
+                    "name": "02514C-JAVA\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 10000
+                },
+                {
+                    "name": "02514J-\u5927\u6570\u636e\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 12000
+                },
+                {
+                    "name": "11511J-Go\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 20000
+                },
+                {
+                    "name": "27510C-go\u7814\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 15000
+                },
+                {
+                    "name": "AI\u6e38\u620f\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 15000
+                },
+                {
+                    "name": "APP/\u5c0f\u7a0b\u5e8f\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 10000
+                },
+                {
+                    "name": "Android SDK\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 15000
+                },
+                {
+                    "name": "Android \u5f00\u53d1\u5de5\u7a0b\u5e08 \u2014 \u5c0f\u7a0b\u5e8f",
+                    "value": 20000
+                },
+                {
+                    "name": "Android\u5b89\u5353\u5f00\u53d1\u5de5\u7a0b\u5e08--\u6b66\u6c49\uff08\u5efa\uff09",
+                    "value": 10000
+                }
+            ],
+            "radius": [
+                "30%",
+                "100%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "roseType": "area",
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 12,
+                "fontStyle": "italic",
+                "fontWeight": "bold",
+                "fontFamily": "SimHei",
+                "formatter": "{b}\u6709:{c}\u5143"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ".net\u5c0f\u7a0b\u5e8f\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                "02514C-JAVA\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                "02514J-\u5927\u6570\u636e\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                "11511J-Go\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                "27510C-go\u7814\u53d1\u5de5\u7a0b\u5e08",
+                "AI\u6e38\u620f\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                "APP/\u5c0f\u7a0b\u5e8f\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                "Android SDK\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                "Android \u5f00\u53d1\u5de5\u7a0b\u5e08 \u2014 \u5c0f\u7a0b\u5e8f",
+                "Android\u5b89\u5353\u5f00\u53d1\u5de5\u7a0b\u5e08--\u6b66\u6c49\uff08\u5efa\uff09"
+            ],
+            "selected": {},
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u4e0d\u540c\u5de5\u4f5c\u7684\u6700\u4f4e\u5de5\u8d44",
+            "subtext": "\u5206\u6790",
+            "left": "center",
+            "right": "center",
+            "top": "42%",
+            "bottom": "center",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "color": "#0085c3",
+                "fontSize": 25
+            },
+            "subtextStyle": {
+                "color": "#003399",
+                "fontSize": 50
+            }
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": true,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "line",
+                    "bar",
+                    "stack",
+                    "tiled"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    }
+};
+        chart_c79e812f84f849f89eb1c4aabd83822f.setOption(option_c79e812f84f849f89eb1c4aabd83822f);
+    </script>
+</body>
+</html>
