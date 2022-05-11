@@ -1,0 +1,54 @@
+
+'''
+表名：jobs_info
+IT工作职位信息表字段：
+
+job: 职位名
+keyword: 关键词
+place: 工作地点
+requirement: 经验和学历要求
+salary: 薪水
+tags: 需要掌握的技术栈
+welfare: 福利
+pubtime: 职位发布时间
+'''
+
+
+'''
+表名：cartoon_info
+番剧信息表字段：
+
+ssid: 番剧id
+cartoon: 番剧名
+views：播放量
+coins：投币数
+follow：追番人数
+series_follow：系列追番人数
+danmakus：弹幕数
+likes：点赞量
+favorite
+favorites：
+reply：评论数
+share：转发数
+cover：封面图
+url: 番剧url地址
+episodes：集数，如果没有此数据则为-1
+count：总计评分人数，如果没有此数据则为-1
+score：评分，如果没有此数据则为-1
+pub_time: 发布时间
+media_tags: 番剧风格/分类
+voice_actor: 声优
+is_finish: 完结状态 0：未完结 , 1：已完结
+'''
+
+'''
+表名：cartoon_comments
+评论表字段：
+
+mid: 用户id
+uname: 用户名
+ssid: 番剧id
+message: 评论信息
+like: 评论点赞数
+dt: 评论日期
+'''
