@@ -35,7 +35,7 @@ jobs:
       run: |
         git config --global user.email 319485106@qq.com
         git config --global user.name nmydt
-        git clone git@github.com:nmydt/project.git
+        git clone https://github.com/nmydt/project.git
         
         cd project
         ls -al
@@ -43,10 +43,8 @@ jobs:
         pwd
         git add .
         git commit -m "update" 
-        
-        git remote -add origin git@gitee.com:nmydt/project.git
-        git push origin master
-#         git push --force --quiet https://nmydt:"$GITEE_TOKEN"@gitee.com/nmydt/project.git  master:master
+           
+        git push --force --quiet https://nmydt:"$GITEE_TOKEN"@gitee.com/nmydt/project.git  master:master
     - name: Build Gitee Pages
       uses: yanglbme/gitee-pages-action@main
       with:
