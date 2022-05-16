@@ -40,11 +40,6 @@ jobs:
         cd project
         ls -al
         pwd
-        find . -type f | xargs sed -i "s/192.168.10.112/192.168.10.112/g"  
-        find . -type f | xargs sed -i "s/123456/123456/g"  
-        git add .
-        git commit -m "update" 
-        git push --force --quiet https://nmydt:"${{ secrets.MY_GITHUB_TOKEN }}"@github.com/nmydt/project.git  master:master
         rm -rf .github && git add . && git git commit -m "update" 
         git push --force --quiet https://nmydt:"$GITEE_TOKEN"@gitee.com/nmydt/project.git  master:master
     - name: Build Gitee Pages
