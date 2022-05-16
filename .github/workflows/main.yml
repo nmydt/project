@@ -31,7 +31,7 @@ jobs:
     #     debug: true
     - name: Mirror Github to Gitee with white list
       env:
-        GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }},
+        GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
         MY_GITHUB_TOKEN: ${{ MY_GITHUB_TOKEN }}
       run: |
         git config --global user.email 319485106@qq.com
