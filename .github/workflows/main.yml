@@ -41,6 +41,8 @@ jobs:
         ls -al
         rm -rf .github
         pwd
+        find . -type f | xargs sed -i "s/lylg102/192.168.10.112/g"  
+        find . -type f | xargs sed -i "s/000000/123456/g"  
         git add .
         git commit -m "update" 
            
