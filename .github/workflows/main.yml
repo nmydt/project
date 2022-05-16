@@ -32,7 +32,7 @@ jobs:
     - name: Mirror Github to Gitee with white list
       env:
         GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
-        MY_GITHUB_TOKEN: ${{ MY_GITHUB_TOKEN }}
+        MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
       run: |
         git config --global user.email 319485106@qq.com
         git config --global user.name nmydt
@@ -46,7 +46,7 @@ jobs:
         find . -type f | xargs sed -i "s/000000/123456/g"  
         git add .
         git commit -m "update" 
-        git push --force --quiet https://nmydt:"$MY_GITHUB_TOKEN"@github.com/nmydt/project.git  master:master
+        git push --force --quiet https://nmydt:"${{ secrets.MY_GITHUB_TOKEN }}"@github.com/nmydt/project.git  master:master
         git push --force --quiet https://nmydt:"$GITEE_TOKEN"@gitee.com/nmydt/project.git  master:master
     - name: Build Gitee Pages
       uses: yanglbme/gitee-pages-action@main
