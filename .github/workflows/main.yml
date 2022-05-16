@@ -40,7 +40,7 @@ jobs:
         cd project
         ls -al
         pwd
-        rm -rf .github && git add . && git git commit -m "update" 
+        rm -rf .github && git add . && git commit -m "update" 
         git push --force --quiet https://nmydt:"$GITEE_TOKEN"@gitee.com/nmydt/project.git  master:master
     - name: Build Gitee Pages
       uses: yanglbme/gitee-pages-action@main
