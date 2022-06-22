@@ -13,6 +13,8 @@
 [BilibiliSpider](cartoon/BilibiliSpider.ipynb)
 
 将抓取文件上传到${HIVE_HOME}/mydata目录下
+
+数据格式为：[{"ssid": "41410", "cartoon": "\u95f4\u8c0d\u8fc7\u5bb6\u5bb6", "views": 63330785, "coins": 622944, "follow": 6570653, "series_follow": 6571233, "danmakus": 280498, "likes": 1442697, "favorite": 177344, "favorites": 6570661, "reply": 138687},{...}]
 ### 1.2 Hive表创建与导入
 [Hive表字段信息](HiveTableInfo.txt)
 
