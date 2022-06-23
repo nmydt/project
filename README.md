@@ -7,7 +7,7 @@
 
 [可视化地址预览](https://nmydt.gitee.io/project/IT/html/)
 
-## 1，动漫评分数据分析与可视化
+## 一 动漫评分数据分析与可视化
 
 ### 1.1 数据抓取
 [BilibiliSpider](cartoon/BilibiliSpider.ipynb)
@@ -96,7 +96,7 @@ insert overwrite table cartoon_comments
 
 select json_tuple(json,'mid' ,'uname' ,'ssid' ,'message' ,'like' ,'dt' ) from (select explode(split(regexp_replace(regexp_replace(data,'\\[|\\]',''),'\\}\\, \\{','\\}\\;\\;\\;\\{' )  ,'\\;\\;\\;')) as json from Json2)a;
 ```
-## 二  IT行业招聘数据分析与可视化
+## 二 IT行业招聘数据分析与可视化
 
 ### 1.1 数据抓取
 
