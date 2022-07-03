@@ -27,7 +27,7 @@ series_follow：系列追番人数
 danmakus：弹幕数
 likes：点赞量
 favorite
-favorites：
+favorites：收藏量
 reply：评论数
 share：转发数
 cover：封面图
